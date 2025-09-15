@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <!-- http://127.0.0.1:5500/HTMLForms/index.html? -->
+
+    <!-- http://127.0.0.1:5500/HTMLForms/index.html?my-username=max&my-password=1234 -->
+
+    <h2>GET</h2>
+    <form action="" method="get">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" id="username" name="my-username" required>
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password" name="my-password" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" name="email" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>POST</h2>
+    <form action="" method="post">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" id="username" name="my-username">
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" id="password" name="my-password">
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Google Search Hijack</h2>
+    <!-- https://www.google.com/search?q=pizza -->
+
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" placeholder="Search" name="q">
+        <button>Search</button>
+    </form>
+
+
+    <!-- https://www.youtube.com/results?search_query=scaler -->
+    <h2>Youtube Search Hijack</h2>
+    <form action="https://www.youtube.com/results" method="get">
+        <input type="text" placeholder="Search" name="search_query">
+        <button>Search</button>
+    </form>
+
+
+</body>
+
+</html>
