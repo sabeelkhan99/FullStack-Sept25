@@ -1,0 +1,75 @@
+/* Universal Selector */
+
+/* *{
+    border: 1px solid gray;
+} */
+
+/* Id Selector */
+
+#heading{
+    color: palevioletred;
+}
+
+#main{
+    /* background-color: lightblue; */
+}
+
+
+/* Class Selector */
+.fav-item{
+    color: lightsalmon;
+}
+
+/* Descendent Selectors */
+
+main section article{
+    background-color: lightgreen;
+}
+
+/* Child Selector or Child Combinator */
+/* This to select a direct child */
+ul > li{
+    border-top: 2px solid red;
+}
+
+/* Select multiple classes together */
+.one,.two{
+    width: 200px;
+    border: 2px solid black;
+}
+
+/* Attribute Selector */
+
+input[type="text"]{
+    background-color: lightcoral;
+}
+
+input[type="password"]{
+    background-color: lightblue;
+}
+
+a[href="http://google.com"]{
+    color: red;
+}
+
+input[disabled]{
+    background-color: purple;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: palevioletred;
+}
+
+
+/* Pseudo Classes */
+div:hover{
+    background-color: aqua;
+}
+
+a:visited{
+    color: lightseagreen;
+}
+

@@ -1,0 +1,27 @@
+/* ol li:first-child{
+    color: red;
+}
+
+ol li:last-child{
+    color: red;
+}
+
+ol li:nth-of-type(3){
+    color: aqua;
+}
+
+ol li:nth-of-type(7){
+    color: aqua;
+} */
+
+/* ol li:nth-of-type(3n+2){
+    color: lightskyblue;
+} */
+/* 
+ol li:nth-of-type(even){
+    color: lightskyblue;
+} */
+
+ol li:nth-of-type(odd){
+    color: lightskyblue;
+}

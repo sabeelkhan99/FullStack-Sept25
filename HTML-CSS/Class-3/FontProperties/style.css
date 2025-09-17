@@ -1,0 +1,15 @@
+section{
+    border: 20px solid gray;
+}
+
+article p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    word-spacing: 10px;
+}
+
+article h2{
+    text-align: center;
+}
