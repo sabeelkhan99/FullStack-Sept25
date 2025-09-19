@@ -1,0 +1,59 @@
+
+body{
+    border: 20px solid blue;
+}
+
+/* Element Selector */
+p{
+    /* Dimentions */
+
+    width: 400px;
+    height: 200px;
+    
+    box-sizing: border-box;
+
+
+    /* Border */
+    border: 2px solid black;
+
+    /* Padding */
+    /* This gets applied to all the side */
+    /* padding: 20px;  */
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    padding: 10px 20px 30px 40px;
+
+
+
+
+    /* Margin */
+    /* margin: 80px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    margin: 40px auto;
+    
+}
+
+section{
+    border-top: 10px solid lightpink;
+    border-right: 10px solid green;
+    border-bottom: 10px solid orange;
+    border-left: 10px solid lightskyblue;
+    width: 400px;
+    height: 200px;
+
+    border-radius: 10px 20px 3px 40px;
+}
+
+div{
+    border: 2px solid lightgreen;
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}

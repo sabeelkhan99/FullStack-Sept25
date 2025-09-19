@@ -1,0 +1,12 @@
+section{
+    width: 300px;
+    border: 2px solid black;
+    height: 400px;
+    margin: 30px auto;
+
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: clip;
+    overflow-clip-margin: 40px;
+}
