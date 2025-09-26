@@ -1,0 +1,64 @@
+section{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: lightcoral;
+}
+
+#container{
+    background-color: lightgreen;
+}
+
+.section-container{
+    background-color: aqua;
+}
+
+
+article{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+
+    background-color: purple !important;
+}
+
+article{
+    background-color: orange;
+}
+
+/* ------------------------------------------------------------- */
+
+/* Arrange the selector from least effective to most effective  */
+
+/* (inline, id , class/pseudo selector, element selector)  */
+
+/* 
+
+1. .test - (0, 0, 1, 0) => 10
+2. h1.test - (0, 0, 1, 1) => 11
+3. #try - (0, 1, 0, 0, ) => 100
+4. h1 - (0, 0, 0, 1) => 1
+
+*/
+
+/* 4 < 1 < 2 < 3  */
+
+/* ------------------------------------------------------------ */
+
+/* Calculate the specificity for the below selector */
+
+/* 
+
+    #try ul div.test h2{}. - (0, 1, 1, 3)
+
+
+*/
+
+/* -------------------------------------------------- */
+
+/* 
+
+    #try span img .test .main header - (0, 1, 2, 3) => 123
+
+*/
+

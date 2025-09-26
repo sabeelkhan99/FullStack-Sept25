@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#static #middle{
+    position: static;
+    top: 10px;
+    left: 30px;
+    right: 40px;
+    bottom: 50px;
+}
+
+#relative #middle{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#absolute{
+    position: relative;
+}
+
+#absolute #middle{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+#fixed #middle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
