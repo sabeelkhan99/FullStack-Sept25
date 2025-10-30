@@ -1,0 +1,9 @@
+.para{
+    text-decoration: line-through;
+    color: purple;
+    text-transform: uppercase;
+}
+
+.a{
+    border: 2px solid black;
+}
