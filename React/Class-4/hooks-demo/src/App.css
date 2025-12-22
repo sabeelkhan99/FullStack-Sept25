@@ -1,0 +1,16 @@
+.todo{
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    width: 400px;
+}
+
+ul{
+    list-style: none;
+}
+
+.todos{
+    width: 400px;
+    margin: 4rem auto;
+}

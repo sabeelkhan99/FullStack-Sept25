@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 
 const Form = () => {
 
-    const [taskInp, setTaskInp] = useState("");
+    // const [taskInp, setTaskInp] = useState("");
+    let taskInp = "";
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
@@ -10,7 +11,8 @@ const Form = () => {
     }
 
     const taskInpHandler = (event) => {
-        setTaskInp(event.target.value);
+        // setTaskInp(event.target.value);
+        taskInp = event.target.value;
     }
 
     return (
