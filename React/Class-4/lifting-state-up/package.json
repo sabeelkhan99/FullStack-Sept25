@@ -1,5 +1,5 @@
 {
-  "name": "hooks-demo",
+  "name": "lifting-state-up",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "formik": "^2.4.9",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "uuid": "^13.0.0",
-    "yup": "^1.7.1"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
