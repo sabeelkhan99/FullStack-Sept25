@@ -37,7 +37,7 @@ const MovieDetails = () => {
                     <section className='p-5 text-white max-w-lg'>
                         <h2 className='text-5xl mb-3 text-white font-bold'>{movie.original_title}</h2>
                         {movie.genres.map((genre) => {
-                            return <span>{ genre.name },</span>
+                            return <span key={genre.id}>{ genre.name },</span>
                         })}
                         <span>{movie.runtime} mins</span>
                         <h3 className='text-xl font-bold mb-3'>Overview</h3>
