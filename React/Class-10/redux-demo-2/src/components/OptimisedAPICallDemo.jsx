@@ -1,7 +1,7 @@
 import React,{act, useEffect, useReducer} from 'react'
 
 async function fetchProductById() {
-    const response = await fetch('https://fakestoreapi.com/prodts/1');
+    const response = await fetch('https://fakestoreapi.com/products/1');
     const data = await response.json();
     return data;
 }
