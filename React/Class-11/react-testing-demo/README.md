@@ -38,6 +38,12 @@ Real user interactions
 2. Typing
 3. Keyboard navigation
 
+## create a setup file
+1. Create a tests folder in src like `src/tests/setup.js`
+2. Paste the below code 
+```js
+    import '@testing-library/jest-dom'
+```
 
 ## Configure Vitest
 
