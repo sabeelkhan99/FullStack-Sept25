@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>GET vs POST</h1>
+
+    <h2>GET</h2>
+
+    <!-- http://localhost:8080/user?username=max&age=1234  -->
+    <form action="/user" method="get">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" name="username">
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" name="age">
+
+        <button>Submit</button>
+    </form>
+
+     <h2>POST</h2>
+
+    <form action="/user" method="post">
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" name="username">
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Age" name="age">
+
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
