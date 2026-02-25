@@ -1,0 +1,20 @@
+const { AuthenticationError } = require("../core/ApiError");
+const jwt = require('jsonwebtoken');
+
+const JWT_SECRET = "P8YyTpUZV44Q2RL1ycdDFyBbDJ4cfU7wdS0p0kSvPhpbuWYwyRPMHjwB0Vkm76pT";
+
+const isLoggedIn = (req, res, next) => {
+    const authorizationHeader = req.header('Authorization');
+    if (!authorizationHeader) {
+        throw new AuthenticationError('Please login to continue');
+    }
+
+    const token = authorizationHeader.replace("Bearer ", "");
+    const { userId } = jwt.verify(token, JWT_SECRET);
+    req.userId = userId;
+    next();
+}
+
+module.exports = {
+    isLoggedIn
+}
