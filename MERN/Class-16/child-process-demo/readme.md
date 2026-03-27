@@ -1,0 +1,1 @@
+1.https://dev.to/wallacefreitas/understanding-worker-threads-and-child-processes-52nj
